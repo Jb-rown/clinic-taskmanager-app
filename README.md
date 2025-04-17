@@ -166,8 +166,8 @@ GET /tasks/{task_id}/comments
 ![Endpoint Screenshot](./images/schema.jpg)
 
 ## Project Structure
-markdown
-bash
+
+```bash
 week8-mysql-fastapi-project/
 ├── clinic_system/                 # Question 1 – Clinic Booking System
 │   └── clinic_system.sql          # SQL file with schema + sample data
