@@ -24,7 +24,7 @@ The Clinic Booking System is a MySQL-based database designed to manage the opera
 ![schema screenshot](./images/clinic_db.jpg)
 
 ### Database Schema
-![schema screenshot](./images/clinic_db_sample.jpg)
+![schema screenshot](./images/clinic_db_sample_data.jpg)
 
 
 
@@ -169,10 +169,10 @@ GET /tasks/{task_id}/comments
 
 ```bash
 week8-mysql-fastapi-project/
-├── clinic_system/                 # Question 1 – Clinic Booking System
+├── clinic_system/                 #  Clinic Booking System
 │   └── clinic_system.sql          # SQL file with schema + sample data
 
-├── task_manager/                  # Question 2 – FastAPI Task Manager API
+├── task_manager/                  #  FastAPI Task Manager API
 │   ├── app/
 │   │   ├── __init__.py
 │   │   ├── main.py                # FastAPI app
@@ -181,9 +181,9 @@ week8-mysql-fastapi-project/
 │   │   ├── database.py            # MySQL connection
 │   ├── schema.sql                 # DB script to create task_db and tables
 │   ├── requirements.txt           # Python dependencies
-│   └── README.md                  # Description of Task Manager API
+│                    
 
-├── README.md                      # Top-level README for both Q1 & Q2
+├── README.md                      # description of the project
 
  
 
